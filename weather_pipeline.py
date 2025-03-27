@@ -4,7 +4,7 @@ import sqlite3
 from datetime import datetime
 
 # API setup
-API_KEY = "275b5300ffbd194aff4e1642d8a48b01"  # Replace with your OpenWeatherMap API key
+API_KEY = "{API_KEY}"  # Replace with your OpenWeatherMap API key
 CITY = input("Enter city name separated by commas (e.g., New York, London, Tokyo): ")
 URL = f"http://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}"
 
